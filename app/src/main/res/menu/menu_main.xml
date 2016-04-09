@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_open"
+        android:title="选图"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_clean"
+        android:title="清除"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_save"
+        android:title="保存"
+        app:showAsAction="ifRoom" />
+</menu>
